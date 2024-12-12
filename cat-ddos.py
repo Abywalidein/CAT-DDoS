@@ -17,12 +17,14 @@ print("Loading.......")
 attemps = 0
 os.system("clear")
 logo = """
-
-
-
-
-
-
+   ÷÷÷ ÷÷        ÷÷÷     ÷÷ ÷÷ ÷÷÷ ÷÷ ÷÷
+ ÷÷÷            ÷÷÷ ÷÷         ÷÷÷
+÷÷÷            ÷÷÷   ÷÷        ÷÷÷
+÷÷÷           ÷÷÷     ÷÷       ÷÷÷
+÷÷÷          ÷÷÷       ÷÷      ÷÷÷
+ ÷÷÷        ÷÷÷   ÷÷ ÷÷ ÷÷     ÷÷÷
+   ÷÷÷ ÷÷  ÷÷÷           ÷÷    ÷÷÷
+        
 """
 while attemps < 100:
     username = input("\033[32mEnter your username: \033[0m")
