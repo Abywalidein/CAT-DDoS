@@ -79,8 +79,8 @@ def run2():
 
 
 			
-for times in range(threads):
-	if choice == 'Time':
+for 't' in range(threads):
+	if choice == 't':
 		th = threading.Thread(target = run)
 		th.start()
 	else:
