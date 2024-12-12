@@ -66,10 +66,12 @@ def main() -> None:
 
 if __name__ == "__main__":
     main(
+1
 
+if data["code"][str(ctx.author.id)["correct"] == False:
 with open("tools/L7/user_agents.json", "r") as agents:
     user_agents = json.load(agents)["agents"]
-
+        )
 
 headers = {
     "X-Requested-With": "XMLHttpRequest",
