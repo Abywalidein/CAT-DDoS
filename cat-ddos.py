@@ -81,6 +81,5 @@ def run2():
 			
 for x in range(threads):
 	        th = threading.Thread(target = run)
-	else:
 	        th = threading.Thread(target = run2)
 		
